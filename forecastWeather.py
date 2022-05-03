@@ -1,7 +1,7 @@
 from weather import get_location
 from pyowm import *
 
-APIKEY = 'edcacfd8339871d9f0f7f6e48e1b08eb'
+APIKEY = 'API'
 OpenWMap = OWM(APIKEY)
 mrg = OpenWMap.weather_manager()
 mrg_code = OpenWMap.geocoding_manager()
