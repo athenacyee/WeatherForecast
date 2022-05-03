@@ -2,7 +2,7 @@ from pyowm import *
 from datetime import datetime
 
 
-APIKEY = 'edcacfd8339871d9f0f7f6e48e1b08eb'
+APIKEY = 'API'
 OpenWMap = OWM(APIKEY)
 mrg = OpenWMap.weather_manager()
 observation = ""
